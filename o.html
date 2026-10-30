@@ -6,4 +6,5 @@
   const target = "obsidian://adv-uri" + location.search;
   document.getElementById("l").href = target;
   location.href = target;
+  setTimeout(() => window.close(), 100);
 </script>
